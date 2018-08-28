@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jawakar | Durai</title>
+    <link rel="stylesheet" href="../src/stylesheets/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Oswald|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class="page-header">
+        <nav>
+           <input type="checkbox" id="nav" class="hidden">
+           <label for="nav" class="nav-btn">
+                 <i></i>
+                 <i></i>
+                 <i></i>
+           </label>
+           <div class="logo">
+                <a href="#">Check_in</a>
+           </div>
+           <div class="nav-wrapper">
+                <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Projects</a></li>
+                   <li><a href="#">Education</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Lets know each other</a></li>
+                </ul>
+           </div>
+       </nav>
+      <div class="container">
+        <h1 class="form animated fadeInUp delay-1">Get in touch</h1>
+        <form class=" animated fadeInUp delay-2" autocomplete="off">
+            <textarea autocomplete class="input input_box_1" type="text" name="name" value="" placeholder="Name" ></textarea>
+            <textarea class="input input_box_2" type="text" name="email" value="" placeholder="Email"></textarea>
+            <textarea class="input input_box_3" type="text" name="contact_no" value="" placeholder="Contact Number" ></textarea>
+            <div class="btn btn-sub" type="submit" name="button">
+                <a href="#">Hoolaa..</a>
+            </div>
+        </form>
+      </div>
+      <div class="react-add">
+
+      </div>
+    </div>
+
+<script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $(".input_box_1").focus(function(){
+                $(".input_box_1").animate({
+                    width : '50%'
+            },1000);
+        });
+
+            $(".input_box_1").blur(function(){
+                $(".input_box_1").animate({
+                    width : '40%'
+            },1000);
+        });
+
+            $(".input_box_2").focus(function(){
+                $(".input_box_2").animate({
+                    width : '50%'
+            },1000);
+        });
+
+            $(".input_box_2").blur(function(){
+                $(".input_box_2").animate({
+                    width : '40%'
+            },1000);
+        });
+
+        $(".input_box_3").focus(function(){
+            $(".input_box_3").animate({
+                width : '50%'
+        }   ,1000);
+        });
+
+        $(".input_box_3").blur(function(){
+            $(".input_box_3").animate({
+                width : '40%'
+            },1000);
+        });
+
+    });
+
+</script>
+
+  </body>
+</html>
