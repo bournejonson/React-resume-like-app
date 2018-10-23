@@ -10,22 +10,22 @@ export const Projects = ({one, two=2, three=3, four=4, githubgoal=5})=> (
             <div className = " projects row">
             <GoOctoface />
                 <div className = "project-1 col-2">
-
+                    <p> Total</p>
                     <span className = "h3 text-white ">{one}</span>
                 </div>
                 <GoOctoface />
                 <div className = "project-1 col-2">
-
+                <p> node</p>
                     <span className = "h3 text-white ">{two} </span>
                 </div>
                 <GoOctoface />
                 <div className = "project-1 col-2">
-
+                <p> angular</p>
                     <span className = "h3 text-white ">{three}</span>
                 </div>
                 <GoOctoface />
                 <div className = "project-1 col-2">
-
+                <p> React</p>
                     <span className = "h3 text-white ">{four}</span>
                 </div>
             </div>

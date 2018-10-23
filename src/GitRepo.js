@@ -29,7 +29,7 @@ export class GitRepo extends Component{
 
                 <div class="card border-light rounded p-3">
                     <img class="card-img-top rounded-circle" src={details.avatar_url} alt="Card image cap" />
-                    <div class="card-body">
+                                        <div class="card-body">
                         <h1 class="card-title text-dark ml-0 pl-0">{details.login}</h1>
                         <p class="card-text"><span className ="font-weight-bold">Bio:: </span> {details.bio}</p>
                         <p class="card-text"><span className ="font-weight-bold">repos:: </span>{details.public_repos}</p>
